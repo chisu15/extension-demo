@@ -1,0 +1,155 @@
+* {
+  font-family: "Niramit";
+  text-align: center;
+  overflow-x: hidden;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container
+{
+    width: 600px;
+    height: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    transition: all 0.2s ease;
+    background-color: #ffffff; /* Màu nền của popup */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng đổ cho popup */
+    padding: 20px; 
+    overflow-x: hidden;
+}
+.head
+{
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #817c7c solid 3px;
+
+}
+.material-symbols-outlined
+{
+    overflow-y: hidden;
+}
+.logo-title
+{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 1.5rem;
+}
+.logo{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+    border: none;
+    object-fit:contain;
+}
+#hide-btn{
+    width: fit-content;
+    height: fit-content;
+    font-size: 30px;
+    overflow-y: hidden;
+}
+.body-c
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.preview
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.ele-preview
+{
+    width: 40%;
+    height: auto;
+    object-fit: contain;
+    border: none;
+    
+}
+.google-input
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.search-bar
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#search-icon
+{
+    position:absolute;
+    left: 21%;
+    color: #a0a0a0;
+    /* z-index:  999; */
+}
+#search-static
+{
+    width: 60%;
+    height: 2rem;
+    border: #ccc solid 1px;
+    border-radius: 25px;
+}
+.change-size
+{
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.change-size input
+{
+    width: 25%;
+    color: #ccc;
+}
+.doodle-list
+{
+    display: flex;
+    width: 600px;
+    gap: 13px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.ele {
+    width: 10rem;
+    height: 5rem;
+    object-fit: cover;
+    border: 3px purple solid;
+    border-radius: 3px
+}
+.ele:hover
+{
+    width: 10.3rem;
+    height: 5.1rem;
+    transition: all 0.23s ease;
+    cursor: pointer;
+}
+#customDoodle {
+    max-width: 100%;
+    display: none;
+}
+.title-doodle
+{
+    font-size: 18px;
+    font-weight: bold;
+}
+.check img
+{
+    border: 3px rgb(0, 198, 53) solid;
+}
